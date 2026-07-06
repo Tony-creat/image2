@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+build/
+*.spec.bak
+
+.env
+.env.*
+*.log
+*.jsonl
+*_response.json
+Image2Tool.lock
+
+*.tmp
+*.temp
+
+# Keep the packaged executable if the maintainer wants to publish it in the repo.
+# For larger releases, prefer GitHub Releases instead.
+dist/*.json
+dist/*.jsonl
+dist/*_response.json
+dist/*.png
+dist/Image2Tool.lock
+
+chengpin/
